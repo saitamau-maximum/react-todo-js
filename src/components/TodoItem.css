@@ -1,0 +1,24 @@
+.todo-item {
+  padding: 0.25rem 0.5rem;
+  display: flex;
+}
+
+.todo-item__checkbox {
+  margin-right: 1rem;
+}
+
+.todo-item__title {
+  flex-grow: 1;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.todo-item__title--completed {
+  text-decoration: line-through;
+}
+
+.todo-item__created-at {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 0.5rem;
+}
